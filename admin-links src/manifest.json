@@ -1,0 +1,48 @@
+{
+  "version": "1",
+  "information": {
+    "name": "admin-portal",
+    "displayName": "Admin Portal",
+    "description": "This is plugin that adds the admin portal to ucrm .",
+    "url": "#",
+    "version": "1.2.0",
+    "ucrmVersionCompliancy": {
+      "min": "2.14.0-beta4",
+      "max": null
+    },
+    "author": "MBDEV LTD."
+ 
+ },
+
+    "menu": [
+        {
+            "key": "Super Admin",
+            "label": "Broadband Portal",
+            "type": "admin",
+            "target": "iframe",
+            "parameters": {
+                "hook": "main"
+            }
+        },
+    {
+            "key": "Super Admin",
+            "label": "Phone Portal",
+            "type": "admin",
+            "target": "iframe",
+            "parameters": {
+                "hook": "phone"
+            }
+        },
+        {
+            "key": "Super Admin",
+            "label": "WholeSale Prices",
+            "type": "admin",
+            "target": "iframe",
+            "parameters": {
+                "hook": "pricing"
+            }
+        }
+    ]
+
+
+}
