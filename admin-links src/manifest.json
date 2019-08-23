@@ -4,7 +4,7 @@
     "name": "admin-portal",
     "displayName": "Admin Portal",
     "description": "This is plugin that adds the admin portal to ucrm .",
-    "url": "#",
+    "url": "https://github.com/matb987/admin-links-plugin",
     "version": "1.2.0",
     "ucrmVersionCompliancy": {
       "min": "2.14.0-beta4",
